@@ -12,13 +12,15 @@
 
 ### Introduction
 
-This is a MBTI test based on cognitive functions. You have don't have any idea about what I am talking about ? Here are some documentation that can Help you: <a href="https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator">MBTI</a>
+This is a MBTI test based on cognitive functions. You don't have any idea about what I am talking about ? Here are some documentation that can Help you: <a href="https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator">MBTI</a>
 /<a href="https://www.wellandgood.com/what-are-mbti-functions/">cognitive functions (Eng)</a> / <a href="http://www.16-types.fr/modele/modele-MBTI-6-dynamique.html">cognitive functions (FR)</a>
 ### How the algorithm works ?
 Initially there is a series of 40 questions. 10 questions for each function duality. Then, the algorithm sorts these functions according to their presence. Then, thanks to a sorting algorithm, it evaluates the most probable type according to your results.
 ## Language
 There are two versions of the program, one in French and one in English. The reason why I made 2 separate files and not the same English/French is also due to the comments. Indeed, some parts can be complex to understand. The comments are therefore translated. 
-
+## Fonctionnalities
+- At the begginning of the program, you can choose between a test or a code. A code, can be usefull, when you did a test once, and you want to get your result again. The code is given to you at the end of your test.
+- When there are 2 sentences, (1) and (2), you must indicate which one corresponds to you more, and to what extent. --- means that 1 is totally you . -- means that 1 represents you but not totally. - means that you have a preference for 1. 0 means that neither of the two inspires you. For the 2, it's the same as for the 1 but with +.
 # How to install Python?
 
 ## Install Python 
