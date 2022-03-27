@@ -10,8 +10,8 @@ import time
 def clear(): # Clear the Terminal
     _ = system('cls') if name == 'nt' else system('clear')
 
+    
 list_func = ["Ti","Te","Si","Se","Ni","Ne","Fi","Fe"]
-score = [60,40, 20, 55 , 40, 10, 30, 30 ] # Ti, Te, Si, Se, Ni, Ne, Fi, Fe
 
 
 def main():
