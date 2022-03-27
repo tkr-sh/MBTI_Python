@@ -31,4 +31,6 @@ If Python is not installed on your computer (to verify that, you can do: "```pyt
 ## Install MBTI_test
 To install MBTI_test you need to download this project as a .zip, then you have to decompress it. After the installation and the decompression, you have to execute it by doing ```py main.py``` in the correct folder</br>
 **⚠️** Make sure that you are in the good Folder when you do that. For example, if the file is on your Desktop you should do ```cd Desktop```. You don't understand what I just said? Path of a file in <a href="https://www.sony.com/electronics/support/articles/00015251">Windows</a> / <a href="https://www.switchingtomac.com/tutorials/osx/5-ways-to-reveal-the-path-of-a-file-on-macos/">Mac</a>. How to use CD: <a href="https://www.techwalla.com/articles/how-to-use-quotcdquot-command-in-command-prompt-window"> Here </a>(It's the same with Mac) **⚠️**
-
+Librairies needed:
+```os, numpy, matplotlib, time, random, re, math, itertools```
+But most of thoses are certainly, already installed with your Python.
