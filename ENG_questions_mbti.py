@@ -3,7 +3,7 @@ question_about_mbti = {
     'T' : {
         '1' : {
             "Ti": "You like to start new projects. You are like an architect, building your solution by exploring all possibilities to find the best approach.",
-            "Te": "ou like to finish projects. It's better to be finished than to find the best solution. In a crisis, you are the commander who pushes the team to finish."
+            "Te": "You like to finish projects. It's better to be finished than to find the best solution. In a crisis, you are the commander who pushes the team to finish."
         },
         '2' : {
             "Ti": "You file ideas in your mind to develop later, and you like to understand how things work.",
