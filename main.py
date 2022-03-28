@@ -44,12 +44,18 @@ def main():
 def test():
     score = [0]*8
     lang = ""
-    while "fr" not in lang and "en" not in lang:
-        lang = input("Do you want the test in English or French ? [en/fr]\n>>>").lower()
+    while "fr" not in lang and "en" not in lang and "uk" not in lang and "kr" not in lang and "jp" not in lang:
+        lang = input("Do you want the test in English or French or Ukrainian or Korean or Japanese ? [en/fr/uk/kr/jp]\n>>>").lower()
     if lang == "fr":
-        from FR_questions_mbti import question_about_mbti as CF 
+        from FR_questions_mbti import question_about_mbti as CF
+    elif lang == "en":
+        from ENG_questions_mbti import question_about_mbti as CF 
+    elif lang == "uk":
+        from UK_questions_mbti import question_about_mbti as CF 
+    elif lang == "jp":
+        from JP_questions_mbti import question_about_mbti as CF 
     else: 
-        from ENG_questions_mbti import question_about_mbti as CF
+        from KR_questions_mbti import question_about_mbti as CF
 
     clear()
     questions = [*range(80)]
